@@ -6,7 +6,7 @@ interface LoginData {
 }
 
 const api = axios.create({
-  baseURL: "http://localhost:3000/api/v1",
+  baseURL: "https://attendance-management-system-demo-backend.onrender.com/api/v1",
 });
 
 export const loginApi = async (data: LoginData) => {
